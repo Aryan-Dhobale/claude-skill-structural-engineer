@@ -4,7 +4,7 @@ HI!
 
 This skill has been developed by an architecture student for structural analysis, with steps to calculate the loads, building code mentions, and use of building codes based on its location. E.g.: If the building is based in Pune, India, then the local by-laws and NBC will be used, and it will exclude things based on user input. 
 
-# Abilities
+## Abilities
 
 1. Read PDF or DWG files.
 2. Analyse the drawings and user inputs.
@@ -12,6 +12,6 @@ This skill has been developed by an architecture student for structural analysis
 4. Generate schedule based on the analysis. 
 5. Generate the report file in PDF or Word format.
 
-# Note
+## Note
 
 This skill is best for students who are persuing Architecture or Civil Engg. 
