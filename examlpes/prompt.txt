@@ -1,0 +1,36 @@
+I have this project in Pune, India. While calculating, make use of only NBC, not Pune by-laws. 
+The longest length of the building is 10.1 m so, calc other sizes accordingly. 
+
+The clear cover used for the slab is 20 mm thick; the clear cover for columns and beams is 25 mm, and the footing clear cover is also 25mm. 
+
+Create an analysis of the column at the top-right corner of the plan on the top size of the PDF provided. 
+Give me its load calculation, steel calculation, and then its schedule. 
+
+Its dimensions are 230 * 300 mm 
+
+Also, do the same type of calculations for the footing below the same column. And give its schedule too. 
+
+its dimensions are 1800 * 1200 * 450 mm 
+
+Also, make calculations for the beam. Take ref for the top plan; in that plan, the beam starts top right column to the next column. 
+
+The beam depth is 500 mm 
+
+Also, do the same type of calcs for the slab, which is just left of the staircase on the top plan. 
+
+Its dimensions are: 150 mm thick. 
+
+In the plan below, the bottom part of it is cantilevered. If compared with the plan on top. Make a calc for cantilever beam. Do the cantilever beam calculation for the beam on right. 
+
+And do the calc for the cantilever slab too, which rests on the cantilever beam. 
+
+dimensions:
+
+Beam: 500 mm depth. 
+Cantilever part length: 2000 mm
+
+Cantilever slab thickness: 150 mm 
+
+Do the calculations for the mentioned structural elements only. 
+
+concrete used would be M25 and steel Fe500.
