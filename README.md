@@ -14,4 +14,5 @@ This skill has been developed by an architecture student for structural analysis
 
 ## Note
 
-This skill is best for students who are persuing Architecture or Civil Engg. 
+This skill is best for students who are pursuing Architecture or Civil Engg. 
+The skill code was generated using Google Search AI.
