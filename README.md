@@ -1,18 +1,19 @@
-# claude-skill-structural-engineer
+# Master Structural Calculator Pro (V2)
 
-HI!
+Advanced engineering analyzer supporting complex material libraries, Revit/CAD/PDF layout parsing, smart defaults with hard triggers, top-down load paths, auto-healing member resizing with revision logs, foundation triggers, serviceability checks, rebar anchorage, and progressive disclosure deliverables.
 
-This skill has been developed by an architecture student for structural analysis, with steps to calculate the loads, building code mentions, and use of building codes based on its location. E.g.: If the building is based in Pune, India, then the local by-laws and NBC will be used, and it will exclude things based on user input. 
+## Core Capabilities
 
-## Abilities
-
-1. Read PDF or DWG files.
-2. Analyse the drawings and user inputs.
-3. Check for missing data points in the given prompt and ask for the missing points immediately for correct analysis. The points can be skipped by instructing it to skip the point.
-4. Generate schedule based on the analysis. 
-5. Generate the report file in PDF or Word format.
-
-## Note
-
-This skill is best for students who are pursuing Architecture or Civil Engg. 
-The skill code was generated using Google Search AI.
+- **Unified Low-Friction Intake:** Single-line configuration (`Typology`, `Location`, `File Upload`) eliminating setup bottlenecks.
+- **Smart Defaults & Hard Safety Triggers:** Intelligent zero-prompt fallbacks with automated overrides that force-enable wind, seismic, and thermal checks if building height exceeds 15m or spans exceed 20m.
+- **BIM & File Ingestion Protocols:** Structured spatial extract parsing (IFC, schedules, coordinate text) for Revit (`.rvt`) files, CAD blueprints, and PDF extractions, complete with grid-line interpolation.
+- **Top-Down Gravitational Load Paths:** Strict calculation hierarchy processing loads downward from roof slabs to footings.
+- **Precision & Phase-Separated Rounding:** Exact float calculations during internal optimization loops, followed by a conservative safety pass and practical drafting round-offs to clean multiples of 5 (c/c).
+- **Iterative Self-Healing Optimization & Revision Tracking:** Automated resizing loops that fix failing members and slim down over-designed elements, tracked via audit logs (`Rev 01`, `Rev 02`).
+- **Advanced Engineering Modules:**
+  - Automated shallow vs. deep foundation triggers.
+  - Serviceability limit state checks (deflections and crack widths).
+  - Rebar anchorage, development lengths ($L_d$), and lap splices.
+  - Beam-column joint shear and congestion checks.
+- **Localized Code Compliance:** Two-tier tracking against national frameworks (NBC, AISC/ACI, Eurocodes) and local municipal bylaws, complete with an Omitted Parameters Log.
+- **Progressive Disclosure & Multi-Format Export:** Post-calculation menus for optional deliverables (BoQ/BoM, Embodied Carbon reports) and exports in PDF, DOCX, DWG, or DXF formats.
